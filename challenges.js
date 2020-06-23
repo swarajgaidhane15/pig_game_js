@@ -28,8 +28,6 @@ function init() {
 }
 
 init();
-final = prompt("Enter the winning score")
-document.querySelector('.finalScore').value = final
 
 document.querySelector('.btn-roll').addEventListener('click',function() {
     
